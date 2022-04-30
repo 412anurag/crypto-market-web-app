@@ -23,14 +23,6 @@ const Coin = ({
           <p className="coin-entry">₹{bid.toLocaleString("en-IN")}</p>
           <p className="green">{h24} ⬆</p>
           <p className="red">{l24} ⬇</p>
-          {/* {priceChange < 0 ? (
-            <p className="coin-percent red">{priceChange.toFixed(2)}%</p>
-          ) : (
-            <p className="coin-percent green">{priceChange.toFixed(2)}%</p>
-          )}
-          <p className="coin-marketcap">
-            Mkt cap:₹{marketCap.toLocaleString("en-IN")}{" "}
-          </p> */}
         </div>
       </div>
     </div>
