@@ -1,0 +1,43 @@
+header-container {
+    display: flex;
+    justify-content: center;
+  }
+  .header-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    width: 950px;
+    background-color: white;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+    background-color: white;
+  }
+  
+  .header h1 {
+    font-size: 26px;
+    width: 250px;
+    padding-right: 9px;
+    color: blue;
+    background-color: white;
+  }
+  
+  .header-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .header-entry {
+    width: 110px;
+    color: blue;
+    background-color: white;
+  }
+  
