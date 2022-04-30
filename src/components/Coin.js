@@ -19,8 +19,8 @@ const Coin = ({
           <h1>{baseCurrency}</h1>
         </div>
         <div className="coin-data">
-          <p className="coin-entry">₹{ask.toLocaleString("en-IN")}</p>
-          <p className="coin-entry">₹{bid.toLocaleString("en-IN")}</p>
+          <p className="coin-entry">₹{ask}</p>
+          <p className="coin-entry">₹{bid}</p>
           <p className="green">{h24} ⬆</p>
           <p className="red">{l24} ⬇</p>
         </div>
